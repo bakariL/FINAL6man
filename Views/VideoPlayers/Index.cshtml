@@ -1,0 +1,28 @@
+﻿<link href="~/Content/VideoPlayerStyle.css" rel="stylesheet" />
+
+@model IEnumerable<TV5.Models.VideoPlayer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="nav navbar topNav">
+
+    @Html.ActionLink("6man.TV", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+    <p>
+        <a href=" @Url.Action("Index","Home" )"> <span class="glyphicon glyphicon-arrow-left btn-lg"></span>Back</a>
+    </p>
+
+</div>
+
+<div class="VideoPlayer">
+    <div id="boxcast-widget-title-game-906314"></div>
+    <script type="text/javascript" charset="utf-8">(function(d, s, c, o) {var js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];var h = (('https:' == document.location.protocol) ? 'https:' : 'http:');js.src = h + '//js.boxcast.com/v3.min.js';js.onload = function() { boxcast.noConflict()('#boxcast-widget-'+c).loadChannel(c, o); };js.charset = 'utf-8';fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'title-game-906314', {"showTitle":1,"showDescription":1,"showHighlights":1,"showRelated":false,"market":"sports-venue","showCountdown":true}));</script>
+
+</div>
+
+<h1> More playoff games coming up...</h1>
+<h3>follow us on btballers</h3>
+<h3>Special thanks to 3rd Coast Hoops and Wes View Productions</h3>
+
+

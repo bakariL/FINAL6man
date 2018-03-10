@@ -1,0 +1,28 @@
+﻿h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight:500;
+    color: white;
+}
+
+footer{
+    margin-top:0;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    color:#9a9a9a;
+    
+}
+
+.topButn {
+    background-color: #02b02b;
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+}
+
+p{
+
+    color:white;
+    font-size:medium;
+}
+
